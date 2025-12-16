@@ -20,7 +20,7 @@ import java.time.LocalDateTime;
 // Permitir CORS en este controlador
 @CrossOrigin(origins = {
     "http://localhost:8082",
-    "https://java-mongo.onrender.com",
+    "https://myinvitacion.com.mx",
     "http://localhost:8083",
     "http://localhost:5173",
     "https://astonishing-lamington-2bfbd2.netlify.app"}) 
