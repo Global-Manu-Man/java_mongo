@@ -13,8 +13,8 @@ spring:
 
   security:
     user:
-      name: ${API_USERNAME:user}   # Definir usuario desde variable de entorno con un valor por defecto
-      password: ${API_PASSWORD:password}   # Definir contraseña desde variable de entorno con un valor por defecto    
+      name: ${API_USERNAME}   # Definir usuario desde variable de entorno con un valor por defecto
+      password: ${API_PASSWORD}   # Definir contraseña desde variable de entorno con un valor por defecto    
 
 logging:
   pattern:
