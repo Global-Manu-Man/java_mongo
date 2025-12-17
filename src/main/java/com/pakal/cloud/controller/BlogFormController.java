@@ -24,7 +24,7 @@ import java.time.LocalDateTime;
     "http://localhost:8083",
     "http://localhost:5173",
     "https://astonishing-lamington-2bfbd2.netlify.app",
-    "http://p8cww48g8os8kk4cw0wsgg4k.5.78.90.187.sslip.io"})
+    "https://form.myinvitacion.com.mx"})
 @RestController
 @RequestMapping("/api/blog-forms")
 @RequiredArgsConstructor
