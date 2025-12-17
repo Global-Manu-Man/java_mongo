@@ -10,7 +10,11 @@ import org.springframework.security.web.csrf.CsrfToken;  // Para manejar el toke
 import java.util.HashMap;  // Para manejar los datos de la respuesta
 import java.util.Map;  // Para manejar los datos de la respuesta
 
-@CrossOrigin(origins = {"http://localhost:8082", "https://java-mongo.onrender.com", "http://localhost:8083/swagger-ui/index.html", "http://localhost:8083/swagger-ui.html"})  // Permitir solicitudes desde estos orígenes
+@CrossOrigin(origins = {"http://localhost:8082",
+                        "https://java-mongo.onrender.com",
+                        "http://localhost:8083/swagger-ui/index.html",
+                        "http://localhost:8083/swagger-ui.html",
+                        "https://form.myinvitacion.com.mx"})
 @RestController
 @RequestMapping("/api")
 public class CsrfController {
